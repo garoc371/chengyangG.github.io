@@ -1,0 +1,56 @@
+---
+title: "Research"
+format: html
+toc: false
+---
+
+# Research
+
+Selected conference presentations and posters:
+
+<div class="conference-item">
+  <a
+    href="files/jsm2023_poster.pdf"
+    class="conference-link"
+    target="_blank" rel="noopener"
+  >
+    <span class="conference-name">
+      Joint Statistical Meeting (JSM) 2023:
+    </span>
+    <span class="paper-title">
+      Weighting-augmented regression adjustment for indirect comparisons under data access constraints
+    </span>
+  </a>
+</div>
+
+<div class="conference-item">
+  <a
+    href="https://www.ispor.org/heor-resources/presentations-database/presentation/euro2024-4015/142836"
+    class="conference-link"
+    target="_blank"
+    rel="noopener"
+  >
+    <span class="conference-name">
+      International Society of Pharmaceutical and Outcome Research (ISPOR) 2025:
+    </span>
+    <span class="paper-title">
+      Modelling Uncertain Heterogeneity for Decision Analytic Models: An Early Exploration
+    </span>
+  </a>
+</div>
+
+<div class="conference-item">
+  <a
+    href="https://www.ispor.org/heor-resources/presentations-database/presentation/euro2024-4014/142868"
+    class="conference-link"
+    target="_blank"
+    rel="noopener"
+  >
+    <span class="conference-name">
+      International Society of Pharmaceutical and Outcome Research (ISPOR) 2025:
+    </span>
+    <span class="paper-title">
+      Expected Value of Sample Information Accounting for Heterogeneous Treatment Effects
+    </span>
+  </a>
+</div>

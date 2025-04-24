@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Posts\nStay tuned! New content coming soon.\n\n\n\nComing Soon"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research\nSelected conference presentations and posters:\n\n  Joint Statistical Meeting (JSM) 2023:   Weighting-augmented regression adjustment for indirect comparisons under data access constraints  \n\n\n  International Society of Pharmaceutical and Outcome Research (ISPOR) 2025:   Modelling Uncertain Heterogeneity for Decision Analytic Models: An Early Exploration  \n\n\n  International Society of Pharmaceutical and Outcome Research (ISPOR) 2025:   Expected Value of Sample Information Accounting for Heterogeneous Treatment Effects"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "Chengyang Gao, PhD\n    PhD Student at University College London\n    \n    \n      I am a researcher, educator, and data scientist with a passion for community-driven research. My research leverages computational methods to study the intersection of [your field] and [another field].\n      \n      My work focuses on developing innovative approaches to [specific focus area] while making science more accessible and collaborative.\n    \n    \n    \n      Curriculum Vitae"
+  }
+]

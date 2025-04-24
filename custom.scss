@@ -1,0 +1,274 @@
+/*-- scss:defaults --*/
+
+// Default light theme colors 
+$primary: #0f4c81;         /* Blue from reference image */
+$secondary: #bf5700;       /* Warm accent color */
+$body-color: #2d3748;      /* Dark gray for text */
+$body-bg: #faf7f2;         /* Cream/beige background from reference */
+$link-color: #bf5700;      /* Warm link color */
+$font-family-sans-serif: 'Lato', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+
+// Custom theme variables
+$gradient-start: #faf7f2;  /* Cream background */
+$gradient-end: #f5f0e8;    /* Slightly darker cream */
+$border-color: #e8e0d5;    /* Light border color */
+$navbar-bg: $primary;      /* Blue navbar */
+$navbar-fg: white;         /* White text in navbar */
+$navbar-hover: lighten($primary, 10%);
+$emphasis-color: #bf5700;  /* Warm accent color */
+
+// Define CSS variables for both light and dark themes
+:root {
+  // Light theme
+  --primary-color: #{$primary};
+  --secondary-color: #{$secondary};
+  --body-color: #{$body-color};
+  --body-bg: #{$body-bg};
+  --link-color: #{$link-color};
+  --gradient-start: #{$gradient-start};
+  --gradient-end: #{$gradient-end};
+  --border-color: #{$border-color};
+  --navbar-bg: #{$navbar-bg};
+  --navbar-fg: #{$navbar-fg};
+  --navbar-hover: #{lighten($primary, 10%)};
+  --emphasis-color: #{$emphasis-color};
+  --box-shadow-color: rgba(0, 0, 0, 0.15);
+  
+  // Dark theme
+  --dark-primary-color: #4c9adb;
+  --dark-secondary-color: #ff7d3a;
+  --dark-body-color: #e1e5ee;
+  --dark-body-bg: #121820;
+  --dark-link-color: #ff7d3a;
+  --dark-gradient-start: #121820;
+  --dark-gradient-end: #1a2330;
+  --dark-border-color: #2c3640;
+  --dark-navbar-bg: #1a2330;
+  --dark-navbar-fg: #e1e5ee;
+  --dark-navbar-hover: #2c3e50;
+  --dark-emphasis-color: #ff7d3a;
+  --dark-box-shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+/*-- scss:rules --*/
+body {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+  background-attachment: fixed;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#quarto-content {
+  background-color: var(--body-bg);
+  transition: background-color 0.3s ease;
+}
+
+body.dark-theme {
+  --primary-color: var(--dark-primary-color);
+  --secondary-color: var(--dark-secondary-color);
+  --body-color: var(--dark-body-color);
+  --body-bg: var(--dark-body-bg);
+  --link-color: var(--dark-link-color);
+  --gradient-start: var(--dark-gradient-start);
+  --gradient-end: var(--dark-gradient-end);
+  --border-color: var(--dark-border-color);
+  --navbar-bg: var(--dark-navbar-bg);
+  --navbar-fg: var(--dark-navbar-fg);
+  --navbar-hover: var(--dark-navbar-hover);
+  --emphasis-color: var(--dark-emphasis-color);
+  --box-shadow-color: var(--dark-box-shadow-color);
+}
+
+// Enhanced navbar
+.navbar {
+  background-color: var(--navbar-bg) !important;
+  box-shadow: 0 2px 8px var(--box-shadow-color);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--navbar-fg) !important;
+  font-weight: 500;
+  padding: 0.7rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: var(--navbar-hover);
+  border-radius: 4px;
+}
+
+// Theme toggle styles
+.theme-toggle {
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: var(--navbar-fg);
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+// Main content layout
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  min-height: 70vh;
+}
+
+.home-text {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 4rem;
+}
+
+.home-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.home-bio {
+  font-size: 1.1rem;
+  color: var(--body-color);
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  transition: color 0.3s ease;
+}
+
+.home-bio b, .home-bio strong {
+  color: var(--emphasis-color);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+// Control image size specifically for layout
+.home-image-container {
+  flex: 0 0 auto;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-image {
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: none;
+  box-shadow: 0 4px 20px var(--box-shadow-color);
+  transition: box-shadow 0.3s ease;
+}
+
+.home-links {
+  margin-top: 1.5rem;
+}
+
+.cv-link, .conference-link {
+  display: inline-block;
+  color: var(--emphasis-color);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+  padding-bottom: 2px;
+}
+
+.cv-link:hover, .conference-link:hover {
+  border-bottom: 1px solid var(--emphasis-color);
+}
+
+// Styling for research page
+.conference-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  transition: border-color 0.3s ease;
+}
+
+.conference-item:last-child {
+  border-bottom: none;
+}
+
+.conference-name {
+  display: block;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+  transition: color 0.3s ease;
+}
+
+.paper-title {
+  display: block;
+  font-size: 1.05rem;
+  color: var(--body-color);
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column-reverse;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .home-image-container {
+    margin: 0 auto 2rem auto;
+  }
+}
+
+// Make main content area look cleaner
+.quarto-title-banner {
+  display: none;
+}
+
+#title-block-header {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.title {
+  display: none;
+}
+
+.page-layout-full .page-columns {
+  padding-top: 0;
+}
+
+// Remove navbar title to avoid duplication
+.navbar-title {
+  display: none;
+}

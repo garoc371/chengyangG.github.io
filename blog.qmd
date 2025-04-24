@@ -1,0 +1,14 @@
+---
+title: "Posts"
+format: html
+toc: false
+---
+
+# Posts
+
+Stay tuned! New content coming soon.
+
+<div style="text-align:center; margin-top:50px;">
+  <img src="https://img.icons8.com/ios/452/hourglass.png" alt="Coming Soon" style="width:100px; opacity:0.5;"/>
+  <p style="font-size:18px; color:#666;">Coming Soon</p>
+</div>

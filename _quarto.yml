@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    page-layout: full
+    include-in-header:
+      - text: |
+          <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    include-after-body:
+      - text: |
+          <script src="theme-toggle.js"></script>
+
+website:
+  title: "Chengyang Gao"
+  navbar:
+    background: primary
+    search: true
+    right:
+      - text: About
+        href: index.html
+      - text: Research
+        href: research.html
+      - text: Posts
+        href: blog.html
+    tools:
+      - icon: envelope
+        href: "mailto:zczlcga@ucl.ac.uk"
+      - icon: github
+        href: "https://github.com/garoc371"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/chengyang-gao-838532126"

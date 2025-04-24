@@ -1,0 +1,28 @@
+---
+title: "About"
+title-block-banner: false
+format: html
+---
+
+```{=html}
+<div class="home-container">
+  <div class="home-text">
+    <div class="home-name">Chengyang Gao, PhD</div>
+    <div class="home-subtitle">PhD Student at University College London</div>
+    
+    <div class="home-bio">
+      <p>I am a researcher, educator, and data scientist with a passion for community-driven research. My <strong>research</strong> leverages computational methods to study the intersection of [your field] and [another field].</p>
+      
+      <p>My work focuses on developing innovative approaches to [specific focus area] while making science more accessible and collaborative.</p>
+    </div>
+    
+    <div class="home-links">
+      <a href="cv.pdf" class="cv-link">Curriculum Vitae</a>
+    </div>
+  </div>
+  
+  <div class="home-image-container">
+    <img src="background2.jpg" class="home-image" alt="">
+  </div>
+</div>
+```
