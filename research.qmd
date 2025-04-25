@@ -31,7 +31,7 @@ Selected conference presentations and posters:
     rel="noopener"
   >
     <span class="conference-name">
-      International Society of Pharmaceutical and Outcome Research (ISPOR) 2025:
+      International Society of Pharmaceutical and Outcome Research (ISPOR) 2024:
     </span>
     <span class="paper-title">
       Modelling Uncertain Heterogeneity for Decision Analytic Models: An Early Exploration
@@ -47,7 +47,7 @@ Selected conference presentations and posters:
     rel="noopener"
   >
     <span class="conference-name">
-      International Society of Pharmaceutical and Outcome Research (ISPOR) 2025:
+      International Society of Pharmaceutical and Outcome Research (ISPOR) 2024:
     </span>
     <span class="paper-title">
       Expected Value of Sample Information Accounting for Heterogeneous Treatment Effects

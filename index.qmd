@@ -7,7 +7,7 @@ format: html
 ```{=html}
 <div class="home-container">
   <div class="home-text">
-    <div class="home-name">Chengyang Gao, PhD</div>
+    <div class="home-name">Chengyang Gao</div>
     <div class="home-subtitle">PhD Student</div>
     
     <div class="home-bio">
