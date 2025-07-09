@@ -9,9 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      pages: write
-      id-token: write
+      contents: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -21,9 +19,17 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Render Quarto site
+        uses: quarto-dev/quarto-actions/render@v2
+      
+      - name: Commit and push rendered site
+        run: |
+          git config --local user.email "garoc371@gmail.com"
+          git config --local user.name "GitHub Actions"
+          git add docs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-render site 🤖"
+            git push
+          fi
