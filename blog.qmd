@@ -8,7 +8,8 @@ toc: false
 
 Stay tuned! New content coming soon.
 
-<div style="text-align:center; margin-top:50px;">
-  <img src="https://img.icons8.com/ios/452/hourglass.png" alt="Coming Soon" style="width:100px; opacity:0.5;"/>
-  <p style="font-size:18px; color:#666;">Coming Soon</p>
-</div>
+::: {.callout-tip appearance="minimal" style="text-align: center; margin-top: 50px; padding: 2rem; border-radius: 12px; background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end)); border: 2px solid var(--border-color);"}
+## In Preparation
+
+New content is being prepared! Check back soon for notes, tutorials, and technical insights.
+:::

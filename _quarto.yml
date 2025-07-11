@@ -21,11 +21,11 @@ website:
     search: true
     right:
       - text: About
-        href: index.html
+        href: index.qmd
       - text: Research
-        href: research.html
+        href: research.qmd
       - text: Posts
-        href: blog.html
+        href: blog.qmd
     tools:
       - icon: envelope
         href: "mailto:zczlcga@ucl.ac.uk"

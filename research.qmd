@@ -8,49 +8,14 @@ toc: false
 
 Selected conference presentations and posters:
 
-<div class="conference-item">
-  <a
-    href="files/jsm2023_poster.pdf"
-    class="conference-link"
-    target="_blank" rel="noopener"
-  >
-    <span class="conference-name">
-      Joint Statistical Meeting (JSM) 2023:
-    </span>
-    <span class="paper-title">
-      Weighting-augmented regression adjustment for indirect comparisons under data access constraints
-    </span>
-  </a>
-</div>
+:::{.conference-item}
+[[Joint Statistical Meeting (JSM) 2023:]{.conference-name} [Weighting-augmented regression adjustment for indirect comparisons under data access constraints]{.paper-title}](files/jsm2023_poster.pdf){.conference-link target="_blank" rel="noopener"}
+:::
 
-<div class="conference-item">
-  <a
-    href="https://www.ispor.org/heor-resources/presentations-database/presentation/euro2024-4015/142836"
-    class="conference-link"
-    target="_blank"
-    rel="noopener"
-  >
-    <span class="conference-name">
-      International Society of Pharmaceutical and Outcome Research (ISPOR) 2024:
-    </span>
-    <span class="paper-title">
-      Modelling Uncertain Heterogeneity for Decision Analytic Models: An Early Exploration
-    </span>
-  </a>
-</div>
+:::{.conference-item}
+[[International Society of Pharmaceutical and Outcome Research (ISPOR) 2024:]{.conference-name} [Modelling Uncertain Heterogeneity for Decision Analytic Models: An Early Exploration]{.paper-title}](https://www.ispor.org/heor-resources/presentations-database/presentation/euro2024-4015/142836){.conference-link target="_blank" rel="noopener"}
+:::
 
-<div class="conference-item">
-  <a
-    href="https://www.ispor.org/heor-resources/presentations-database/presentation/euro2024-4014/142868"
-    class="conference-link"
-    target="_blank"
-    rel="noopener"
-  >
-    <span class="conference-name">
-      International Society of Pharmaceutical and Outcome Research (ISPOR) 2024:
-    </span>
-    <span class="paper-title">
-      Expected Value of Sample Information Accounting for Heterogeneous Treatment Effects
-    </span>
-  </a>
-</div>
+:::{.conference-item}
+[[International Society of Pharmaceutical and Outcome Research (ISPOR) 2024:]{.conference-name} [Expected Value of Sample Information Accounting for Heterogeneous Treatment Effects]{.paper-title}](https://www.ispor.org/heor-resources/presentations-database/presentation/euro2024-4014/142868){.conference-link target="_blank" rel="noopener"}
+:::
