@@ -1,23 +1,23 @@
 [
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Posts\nStay tuned! New content coming soon.\n\n\n\n\n\n\nIn Preparation\n\n\n\nNew content is being prepared! Check back soon for notes, tutorials, and technical insights."
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Research\nSelected conference presentations and posters:\n\n  Joint Statistical Meeting (JSM) 2023:   Weighting-augmented regression adjustment for indirect comparisons under data access constraints  \n\n\n  International Society of Pharmaceutical and Outcome Research (ISPOR) 2024:   Modelling Uncertain Heterogeneity for Decision Analytic Models: An Early Exploration  \n\n\n  International Society of Pharmaceutical and Outcome Research (ISPOR) 2024:   Expected Value of Sample Information Accounting for Heterogeneous Treatment Effects"
+    "text": "Research\nSelected conference presentations and posters:\n\nJoint Statistical Meeting (JSM) 2023: Weighting-augmented regression adjustment for indirect comparisons under data access constraints\n\n\nInternational Society of Pharmaceutical and Outcome Research (ISPOR) 2024: Modelling Uncertain Heterogeneity for Decision Analytic Models: An Early Exploration\n\n\nInternational Society of Pharmaceutical and Outcome Research (ISPOR) 2024: Expected Value of Sample Information Accounting for Heterogeneous Treatment Effects"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "Chengyang Gao\n    PhD Student\n    \n    \n      I am a PhD student in Statistics at University College London, where I develop methods for causal inference in the context of health technology assessment and value of information analysis.\n      \n      On this site, you’ll find a list of my research projects and contact information. A blog - for notes, TILs and occasional technical writing - is coming soon.\n    \n    \n    \n      Curriculum Vitae"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Posts\nStay tuned! New content coming soon.\n\n\n\nComing Soon"
+    "text": "Chengyang Gao\n    PhD Student\n    \n    \n      I am a PhD student in Statistics at University College London, where I develop methods for causal inference in the context of health technology assessment and value of information analysis.\n      \n      On this site, you'll find a list of my research projects and contact information. A blog - for notes, TILs and occasional technical writing - is coming soon.\n    \n    \n    \n      Curriculum Vitae"
   }
 ]

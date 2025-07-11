@@ -2,6 +2,9 @@
 /.quarto/
 /_site/
 
+# Claude files
+/.local/
+
 # System files
 .DS_Store
 Thumbs.db
